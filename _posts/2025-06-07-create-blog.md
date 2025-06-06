@@ -4,6 +4,7 @@ title: "Create a simple blog!"
 date: 2025-06-07 00:30:08 +0300
 subtitle: "A guide to a simple blog page."
 background: "/assets/img/blog-bg.jpg"
+author: jason
 ---
 
 For a lot of tech enthusiasts, creating their first public page is a big achievement. A sense of accomplishment that something is now
@@ -72,4 +73,4 @@ Without some sazzle and dazzle, the blog seems pretty boring. Let's change that!
 1. Replace the current theme in your Gemfile with gem "jekyll-theme-clean-blog". Go to `Gemfile` and fing the 'gem "minima", "~> 2.5" ' attribute. Change this.
 2. Install the theme (run the command inside your site directory): `bundle install`
 3. Replace the current theme in your \_config.yml file with theme: jekyll-theme-clean-blog. `theme: jekyll-theme-clean-blog`
-4. Build your site: bundle exec jekyll serve
+4. Build your site: `bundle exec jekyll serve`
