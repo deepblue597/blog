@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Test post!"
+date: 2025-06-06 18:54:08 +0300
+categories: jekyll update
+---
+
+# this is a test post
