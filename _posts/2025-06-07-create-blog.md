@@ -110,7 +110,7 @@ I would suggest checking the documentation's [demo page](https://github.com/Star
 {% endfor %}
 {% endhighlight %}
 
-**Note** Jekyll supports Liquid template tags so to use the same template for every post you can wrap the previous code around `{% for post in site.posts %}` and `{% endfor %}`
+**Note** Jekyll supports Liquid template tags so to use the same template for every post you can wrap the previous code around {% raw %}{% for post in site.posts %} {% endfor %} {% endraw %}
 
 You also need to configure your `baseurl` `url` `email` `author` `title` and `description` on your `_config.yml` file. When you do so on your terminal press
 `Ctr+C` and then `bundle exec jekyll serve`
@@ -141,3 +141,11 @@ Finito! Your blog will be published on `https://<your-github-name>.github.io/blo
 Now you can add new posts, modify your pages and whenever you push to your main branch it will update your blog.
 
 Hope this tutorial helps you create your first blog 😊
+
+## Sources
+
+Below I summarize all my sources
+
+- [Jekyll Documentation](https://jekyllrb.com/)
+- [jekyllthemes.io](https://jekyllthemes.io/)
+- [Template I am using](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll)
