@@ -22,17 +22,35 @@ Coming up next on No.2 is Git and specifically [GitHub](https://github.com/). Gi
 
 ## VsCode
 
+[VsCode](https://code.visualstudio.com/) (Visual Studio Code) is a text editor. You can write your code there. I don't think there is another Text editor more prevalent and more dominant than this. Lots of tools, lots of extension in an easy to use GUI. I don't have many more to say, other than I am writing on VsCode this blog.
+
 ## Docker
+
+I have already talked about docker on [a previous post](https://deepblue597.github.io/blog/2025/06/14/media-stack.html). It is a way to use apps with all the necessary dependencies without being afraid of not working on another pc. I have used in on multiple occasions especially on my self hosting apps due the ability to turn down and up whichever app i want and update them without any issues. Furthermore a lot of apps will occupy a port, and most of the times they try to occupy the same one. With docker you can specify which port the container to use, where to save the data and many more configuration options. On my thesis case i used it to create a kafka cluster (more on that on the next post about my thesis). I think it is really helpful to know how docker works and how configure a few apps. You don't need to be an expert, just to understand how youc an use it. My next endeavour will be understanding kubernetes
 
 ## Youtube
 
+This seems really obvious but, on youtube you need to know HOW to search something not only what to. Because there a lot of videos from multiple sources that might not be what you search for, or even worse, misinform you. Especially now that you can see the dislike counter it is really easy to search for an explanation on a certain subject, and due to promotion reasons, a video pops up that is inaccurate and set you back, or even worse, make you understand something wrong. What i recommend is checking the youtube channel is it has any reputation and even more, check on the comments on the videos. This will give you a better understanding if you should watch it or not
+
 ## ChatGPT
+
+Again, an obvious addition but again, you need to be really careful with how you use ChatGPT. It is a tool, and a tool is only good if you know how to properly use it. In this case, you need to always check what ChatGPT says and verify it with your own research. Basic questions and general knowledge will probably be correct. But ask it something really specific on a niche field, and you are cooked. Furthermore, ChatGPT is not really good at reading fills you feed it. There have been multiple times that I feed him a paper, and the outcome is something totally irrelevant.
+
+I suggest using different chats for different subjects and try to be as specific with your question as possible. If something feels that is not correct, ask him again and pinpoint your doubts about the certain part that you are not sure. If the outcome is something different, i would highly suggest checking on the internet or ask him about his resources.
+
+When we are talking about coding, again, Chat can be really good with some general code snippets with some basic aspects, but ask him about something hard or nuance, and you walking uncharted territory. Remember chat can only answer you about question he was learned to answer from the gathering of data across the internet. So basic general question that everybody does --> really good at answering. Something really specific in a certain field and you need to take everything is says with a pinch of salt.
 
 ## NotebookLM
 
+Now, this is a LLM created for thesis purposes. NotebookLM is using the info you provide him to answer question. It can't answer general questions that your sources don't provide info for. It will also give you the exact place where it supports its answer. You can create a recording in which Notebook will have a small discussion using 2 voices to help you understand what the sources say, as well as notes and a study guide. I really use when i want to understand the papers that i am reading and chat is not a reliable source in such cases. One caveat about NotebookLM is that, it doesnt save your discussion, only what you explicity say to it to save it as a note. So keep that in mind if you want to save something to remember it for later
+
 ## Overleaf
 
+Overleaf is a cloud editor for LateX. Is really useful when you write your thesis because most of the thesis and papers are written in LateX. You can specify the layout, the font, the design and how images and charts will be incorporated in your article. Furthermore you can collaborate with other people.
+
 ## Paperless-ngx
+
+No we are getting in some niche fields for the truly passioante about finding new apps to work with. Paperless-ngx is a self hosting app in which you can save doccuments. But jason you might say, what does this have to do with my thesis? Well my petite croissant, if you want to save the papers that you read and be able to access them from different devices, then paperless is the tool for you. Long gone the days with multiple sheets of paper, with binders and what not to keep your documents. Paperless help you organize this mess and throw away all this unnecessary mess. It can also help you with other aspects of your life such as: agreements, bank notes, bills etc.
 
 ## Karakeep
 
