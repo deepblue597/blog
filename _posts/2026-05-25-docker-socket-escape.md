@@ -26,7 +26,7 @@ over the Docker daemon running on the host. This single misconfiguration bypasse
 every other security measure: namespaces, cgroups, seccomp, cap_drop, network
 isolation — all irrelevant once the socket is accessible.
 
-![Docker socket escape attack flow]({{ site.baseurl }}/assets/img/docker-socket-escape/mermaid-attack.png)
+<img src="{{ site.baseurl }}/assets/img/docker-socket-escape/mermaid-attack.png" alt="Docker socket escape attack flow" style="max-width: 70%; display: block; margin: 0 auto;" />
 
 ## The Setup
 
@@ -302,7 +302,7 @@ Docker API resource group (`CONTAINERS`, `IMAGES`, `NETWORKS`, …) and HTTP
 method (`POST`, `DELETE`). Each defaults to **0 (deny)**; you opt in to what you
 need.
 
-![Docker socket proxy mitigation flow]({{ site.baseurl }}/assets/img/docker-socket-escape/mermaid-proxy.png)
+<img src="{{ site.baseurl }}/assets/img/docker-socket-escape/mermaid-proxy.png" alt="Docker socket proxy mitigation flow" style="max-width: 70%; display: block; margin: 0 auto;" />
 
 ## Proxy Setup
 
